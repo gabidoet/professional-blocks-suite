@@ -1,0 +1,65 @@
+/**
+ * Professional Blocks Suite - Editor Styles
+ * 
+ * Styles for the block editor
+ */
+
+.pbs-hero-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.pbs-hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.pbs-hero-banner h1,
+.pbs-hero-banner p {
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .pbs-hero-banner {
+        min-height: 300px !important;
+    }
+    
+    .pbs-hero-banner h1 {
+        font-size: 2rem !important;
+    }
+    
+    .pbs-hero-banner p {
+        font-size: 1rem !important;
+    }
+}
+
+/* Block Editor Specific Styles */
+.wp-block-pbs-hero-banner {
+    margin: 20px 0;
+}
+
+.wp-block-pbs-testimonial blockquote {
+    border-left: 4px solid #007cba;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.wp-block-pbs-call-to-action {
+    margin: 20px 0;
+}
+
+.wp-block-pbs-feature-box {
+    margin: 15px 0;
+}
+
+.wp-block-pbs-content-slider {
+    margin: 20px 0;
+}
+

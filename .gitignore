@@ -2,8 +2,8 @@
 node_modules/
 vendor/
 
-# Build files
-/build/
+# Build files (keep build/ for WordPress plugin distribution)
+# /build/
 *.min.js
 *.min.css
 
@@ -66,4 +66,3 @@ build/Release
 
 # Yarn Integrity file
 .yarn-integrity
-

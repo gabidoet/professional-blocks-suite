@@ -1,0 +1,89 @@
+/**
+ * Professional Blocks Suite - Frontend Styles
+ * 
+ * Styles for the frontend display
+ */
+
+.wp-block-pbs-hero-banner {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+}
+
+.wp-block-pbs-hero-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.wp-block-pbs-hero-banner h1,
+.wp-block-pbs-hero-banner p {
+    position: relative;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .wp-block-pbs-hero-banner {
+        min-height: 300px !important;
+    }
+    
+    .wp-block-pbs-hero-banner h1 {
+        font-size: 2rem !important;
+    }
+    
+    .wp-block-pbs-hero-banner p {
+        font-size: 1rem !important;
+    }
+}
+
+.wp-block-pbs-testimonial {
+    margin: 20px 0;
+}
+
+.wp-block-pbs-testimonial blockquote {
+    border-left: 4px solid #007cba;
+    padding-left: 20px;
+    margin: 0;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.wp-block-pbs-call-to-action {
+    margin: 20px 0;
+}
+
+.wp-block-pbs-call-to-action div {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.wp-block-pbs-feature-box {
+    margin: 15px 0;
+}
+
+.wp-block-pbs-feature-box div {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.wp-block-pbs-content-slider {
+    margin: 20px 0;
+}
+
+.wp-block-pbs-content-slider div {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    background: #fafafa;
+    border-radius: 5px;
+}
+
