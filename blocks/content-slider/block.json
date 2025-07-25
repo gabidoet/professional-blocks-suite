@@ -3,8 +3,8 @@
   "apiVersion": 3,
   "name": "pbs/content-slider",
   "version": "1.0.0",
-  "title": "Content Slider",
-  "category": "professional-blocks-suite",
+  "title": "*Content Slider",
+  "category": "custom-blocks",
   "icon": "slides",
   "description": "Create engaging content sliders with navigation",
   "keywords": ["slider", "carousel", "slideshow", "content"],
@@ -104,4 +104,3 @@
   "style": "file:./style-index.css",
   "viewScript": "file:./view.js"
 }
-

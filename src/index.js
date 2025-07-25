@@ -1,22 +1,15 @@
 /**
  * Professional Blocks Suite - Main Entry Point
  * 
- * Registers all blocks for the Gutenberg editor
+ * Registers core blocks with asterisk prefix for the Gutenberg editor
  */
 
-// Import all blocks
-import './blocks/advanced-heading';
-import './blocks/professional-button';
-import './blocks/feature-box';
+// Import core blocks with asterisk prefix
+import './blocks/hero-banner';
 import './blocks/testimonial';
-import './blocks/team-member';
-import './blocks/content-slider';
 import './blocks/call-to-action';
-import './blocks/icon-list';
-import './blocks/progress-bar';
-import './blocks/pricing-table';
-import './blocks/alert-notification';
+import './blocks/content-slider';
+import './blocks/feature-box';
 
 // Import global styles
 import './style.scss';
-

@@ -137,8 +137,8 @@ final class ProfessionalBlocksSuite {
         return array_merge(
             array(
                 array(
-                    'slug'  => 'professional-blocks-suite',
-                    'title' => __('Professional Blocks Suite', 'professional-blocks-suite'),
+                    'slug'  => 'custom-blocks',
+                    'title' => __('Custom Blocks', 'professional-blocks-suite'),
                     'icon'  => 'star-filled',
                 ),
             ),
@@ -260,4 +260,3 @@ function pbs() {
 
 // Initialize the plugin
 pbs();
-

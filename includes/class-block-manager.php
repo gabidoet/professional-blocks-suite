@@ -75,82 +75,40 @@ class PBS_Block_Manager {
      */
     private function init_blocks() {
         $this->blocks = array(
-            'advanced-heading' => array(
-                'name' => 'pbs/advanced-heading',
-                'title' => __('Advanced Heading', 'professional-blocks-suite'),
-                'description' => __('Customizable heading with advanced typography controls', 'professional-blocks-suite'),
-                'icon' => 'heading',
-                'category' => 'professional-blocks-suite',
-            ),
-            'professional-button' => array(
-                'name' => 'pbs/professional-button',
-                'title' => __('Professional Button', 'professional-blocks-suite'),
-                'description' => __('Customizable button with multiple styles and options', 'professional-blocks-suite'),
-                'icon' => 'button',
-                'category' => 'professional-blocks-suite',
-            ),
-            'feature-box' => array(
-                'name' => 'pbs/feature-box',
-                'title' => __('Feature Box', 'professional-blocks-suite'),
-                'description' => __('Highlight features with icons and descriptions', 'professional-blocks-suite'),
-                'icon' => 'star-filled',
-                'category' => 'professional-blocks-suite',
+            'hero-banner' => array(
+                'name' => 'pbs/hero-banner',
+                'title' => __('*Hero Banner', 'professional-blocks-suite'),
+                'description' => __('Create stunning hero banner sections', 'professional-blocks-suite'),
+                'icon' => 'format-image',
+                'category' => 'custom-blocks',
             ),
             'testimonial' => array(
                 'name' => 'pbs/testimonial',
-                'title' => __('Testimonial', 'professional-blocks-suite'),
+                'title' => __('*Testimonial', 'professional-blocks-suite'),
                 'description' => __('Display customer testimonials with ratings', 'professional-blocks-suite'),
                 'icon' => 'format-quote',
-                'category' => 'professional-blocks-suite',
-            ),
-            'team-member' => array(
-                'name' => 'pbs/team-member',
-                'title' => __('Team Member', 'professional-blocks-suite'),
-                'description' => __('Showcase team members with social links', 'professional-blocks-suite'),
-                'icon' => 'admin-users',
-                'category' => 'professional-blocks-suite',
-            ),
-            'content-slider' => array(
-                'name' => 'pbs/content-slider',
-                'title' => __('Content Slider', 'professional-blocks-suite'),
-                'description' => __('Create engaging content sliders with navigation', 'professional-blocks-suite'),
-                'icon' => 'slides',
-                'category' => 'professional-blocks-suite',
+                'category' => 'custom-blocks',
             ),
             'call-to-action' => array(
                 'name' => 'pbs/call-to-action',
-                'title' => __('Call to Action', 'professional-blocks-suite'),
+                'title' => __('*Call to Action', 'professional-blocks-suite'),
                 'description' => __('Create compelling call-to-action sections', 'professional-blocks-suite'),
                 'icon' => 'megaphone',
-                'category' => 'professional-blocks-suite',
+                'category' => 'custom-blocks',
             ),
-            'icon-list' => array(
-                'name' => 'pbs/icon-list',
-                'title' => __('Icon List', 'professional-blocks-suite'),
-                'description' => __('Create lists with custom icons', 'professional-blocks-suite'),
-                'icon' => 'list-view',
-                'category' => 'professional-blocks-suite',
+            'content-slider' => array(
+                'name' => 'pbs/content-slider',
+                'title' => __('*Content Slider', 'professional-blocks-suite'),
+                'description' => __('Create engaging content sliders with navigation', 'professional-blocks-suite'),
+                'icon' => 'slides',
+                'category' => 'custom-blocks',
             ),
-            'progress-bar' => array(
-                'name' => 'pbs/progress-bar',
-                'title' => __('Progress Bar', 'professional-blocks-suite'),
-                'description' => __('Display progress with animated bars', 'professional-blocks-suite'),
-                'icon' => 'chart-bar',
-                'category' => 'professional-blocks-suite',
-            ),
-            'pricing-table' => array(
-                'name' => 'pbs/pricing-table',
-                'title' => __('Pricing Table', 'professional-blocks-suite'),
-                'description' => __('Create attractive pricing tables', 'professional-blocks-suite'),
-                'icon' => 'money-alt',
-                'category' => 'professional-blocks-suite',
-            ),
-            'alert-notification' => array(
-                'name' => 'pbs/alert-notification',
-                'title' => __('Alert Notification', 'professional-blocks-suite'),
-                'description' => __('Display important alerts and notifications', 'professional-blocks-suite'),
-                'icon' => 'warning',
-                'category' => 'professional-blocks-suite',
+            'feature-box' => array(
+                'name' => 'pbs/feature-box',
+                'title' => __('*Feature Box', 'professional-blocks-suite'),
+                'description' => __('Highlight features with icons and descriptions', 'professional-blocks-suite'),
+                'icon' => 'star-filled',
+                'category' => 'custom-blocks',
             ),
         );
     }
@@ -224,4 +182,3 @@ class PBS_Block_Manager {
         return isset($this->blocks[$block_slug]);
     }
 }
-
