@@ -24,7 +24,7 @@
     // Hero Banner Block
     console.log('PBS: Registering Hero Banner block...');
     registerBlockType('pbs/hero-banner', {
-        apiVersion: 3,
+        apiVersion: 2,
         title: '*Hero Banner',
         icon: 'format-image',
         category: 'custom-blocks',
@@ -184,7 +184,7 @@
     // Simple Testimonial Block
     console.log('PBS: Registering Testimonial block...');
     registerBlockType('pbs/testimonial', {
-        apiVersion: 3,
+        apiVersion: 2,
         title: '*Testimonial',
         icon: 'format-quote',
         category: 'custom-blocks',
@@ -222,7 +222,7 @@
 
     // Simple Call to Action Block
     registerBlockType('pbs/call-to-action', {
-        apiVersion: 3,
+        apiVersion: 2,
         title: '*Call to Action',
         icon: 'megaphone',
         category: 'custom-blocks',
@@ -260,7 +260,7 @@
 
     // Simple Feature Box Block
     registerBlockType('pbs/feature-box', {
-        apiVersion: 3,
+        apiVersion: 2,
         title: '*Feature Box',
         icon: 'star-filled',
         category: 'custom-blocks',
@@ -298,7 +298,7 @@
 
     // Simple Content Slider Block
     registerBlockType('pbs/content-slider', {
-        apiVersion: 3,
+        apiVersion: 2,
         title: '*Content Slider',
         icon: 'slides',
         category: 'custom-blocks',
