@@ -1,0 +1,56 @@
+{
+  "name": "professional-blocks-suite",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of 11 professional Gutenberg blocks for WordPress",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [
+    "wordpress",
+    "gutenberg",
+    "blocks",
+    "slider",
+    "testimonial",
+    "button",
+    "heading",
+    "professional"
+  ],
+  "author": "Professional Blocks Suite Team",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/gabidoet/professional-blocks-suite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabidoet/professional-blocks-suite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabidoet/professional-blocks-suite/issues"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^12.0.0",
+    "@wordpress/blocks": "^12.0.0",
+    "@wordpress/components": "^25.0.0",
+    "@wordpress/element": "^5.0.0",
+    "@wordpress/i18n": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+

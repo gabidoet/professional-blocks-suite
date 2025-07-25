@@ -1,0 +1,89 @@
+/**
+ * Professional Blocks Suite - Global Styles
+ * 
+ * Global styles that apply to all blocks
+ */
+
+// Import individual block styles
+@import 'blocks/advanced-heading/style.scss';
+@import 'blocks/professional-button/style.scss';
+@import 'blocks/feature-box/style.scss';
+@import 'blocks/testimonial/style.scss';
+@import 'blocks/team-member/style.scss';
+@import 'blocks/content-slider/style.scss';
+@import 'blocks/call-to-action/style.scss';
+@import 'blocks/icon-list/style.scss';
+@import 'blocks/progress-bar/style.scss';
+@import 'blocks/pricing-table/style.scss';
+@import 'blocks/alert-notification/style.scss';
+
+// Global PBS styles
+.pbs-block {
+    box-sizing: border-box;
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+}
+
+// Common animations
+@keyframes pbsFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pbsSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+// Utility classes
+.pbs-animate-fade-in {
+    animation: pbsFadeIn 0.6s ease-out;
+}
+
+.pbs-animate-slide-in {
+    animation: pbsSlideIn 0.6s ease-out;
+}
+
+// Responsive utilities
+@media (max-width: 767px) {
+    .pbs-hide-mobile {
+        display: none !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .pbs-hide-tablet {
+        display: none !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .pbs-hide-desktop {
+        display: none !important;
+    }
+}
+
+// Focus styles
+.pbs-block button:focus,
+.pbs-block a:focus,
+.pbs-block [tabindex]:focus {
+    outline: 2px solid #007cba;
+    outline-offset: 2px;
+}
+

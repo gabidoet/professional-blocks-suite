@@ -1,0 +1,107 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pbs/content-slider",
+  "version": "1.0.0",
+  "title": "Content Slider",
+  "category": "professional-blocks-suite",
+  "icon": "slides",
+  "description": "Create engaging content sliders with navigation",
+  "keywords": ["slider", "carousel", "slideshow", "content"],
+  "textdomain": "professional-blocks-suite",
+  "attributes": {
+    "slides": {
+      "type": "array",
+      "default": [
+        {
+          "id": 1,
+          "title": "Slide 1",
+          "content": "This is the first slide content.",
+          "backgroundImage": "",
+          "backgroundColor": "#f8f9fa"
+        },
+        {
+          "id": 2,
+          "title": "Slide 2", 
+          "content": "This is the second slide content.",
+          "backgroundImage": "",
+          "backgroundColor": "#e9ecef"
+        }
+      ]
+    },
+    "showArrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDots": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "autoPlayDelay": {
+      "type": "number",
+      "default": 5000
+    },
+    "pauseOnHover": {
+      "type": "boolean",
+      "default": true
+    },
+    "infiniteLoop": {
+      "type": "boolean",
+      "default": true
+    },
+    "transitionEffect": {
+      "type": "string",
+      "default": "slide"
+    },
+    "transitionDuration": {
+      "type": "number",
+      "default": 500
+    },
+    "sliderHeight": {
+      "type": "number",
+      "default": 400
+    },
+    "arrowColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "arrowBackgroundColor": {
+      "type": "string",
+      "default": "rgba(0, 0, 0, 0.5)"
+    },
+    "arrowSize": {
+      "type": "number",
+      "default": 24
+    },
+    "dotColor": {
+      "type": "string",
+      "default": "rgba(255, 255, 255, 0.5)"
+    },
+    "dotActiveColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "dotSize": {
+      "type": "number",
+      "default": 12
+    },
+    "contentAlignment": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}
+

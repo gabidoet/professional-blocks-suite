@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pbs/alert-notification",
+  "version": "1.0.0",
+  "title": "Alert Notification",
+  "category": "professional-blocks-suite",
+  "icon": "warning",
+  "description": "Professional Alert Notification block",
+  "keywords": ["alert notification"],
+  "textdomain": "professional-blocks-suite",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Block content"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

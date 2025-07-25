@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pbs/feature-box",
+  "version": "1.0.0",
+  "title": "Feature Box",
+  "category": "professional-blocks-suite",
+  "icon": "star-filled",
+  "description": "Professional Feature Box block",
+  "keywords": ["feature box"],
+  "textdomain": "professional-blocks-suite",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Block content"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

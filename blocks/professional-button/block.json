@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pbs/professional-button",
+  "version": "1.0.0",
+  "title": "Professional Button",
+  "category": "professional-blocks-suite",
+  "icon": "button",
+  "description": "Professional Professional Button block",
+  "keywords": ["professional button"],
+  "textdomain": "professional-blocks-suite",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Block content"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

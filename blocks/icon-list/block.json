@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "pbs/icon-list",
+  "version": "1.0.0",
+  "title": "Icon List",
+  "category": "professional-blocks-suite",
+  "icon": "list-view",
+  "description": "Professional Icon List block",
+  "keywords": ["icon list"],
+  "textdomain": "professional-blocks-suite",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "Block content"
+    }
+  },
+  "supports": {
+    "html": false,
+    "anchor": true,
+    "className": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
